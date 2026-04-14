@@ -1,0 +1,7 @@
+{
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.3/LogLens_for_O_Series_Setup_1_0_3.msi",
+    "published_at":  "2026-04-14",
+    "version":  "1.0.3",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.3",
+    "notes":  "Config filename updated to .loglens_for_o_series_config.json and help menu can now check for updates."
+}
