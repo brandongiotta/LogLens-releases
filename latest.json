@@ -1,7 +1,7 @@
 {
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.4/LogLens_for_O_Series_Setup_1_0_4.msi",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.5/LogLens_for_O_Series_Setup_1_0_5.msi",
     "published_at":  "2026-04-14",
-    "version":  "1.0.4",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.4",
-    "notes":  "Adds in-app update checking from the Help menu and publishes the public update manifest for installer delivery."
+    "version":  "1.0.5",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.5",
+    "notes":  "Adds multi-file search scoping from the Log Files tab, wildcard and date filtering for log files, grouped built-in and user-defined search fields, and updated in-app help/documentation."
 }
