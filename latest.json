@@ -1,7 +1,7 @@
 {
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.10/LogLens_for_O_Series_Setup_1_0_10.msi",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.11/LogLens_for_O_Series_Setup_1_0_11.msi",
     "published_at":  "2026-04-15",
-    "version":  "1.0.10",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.10",
-    "notes":  "Fixes the in-app updater handoff so LogLens now reliably launches Windows Installer after downloading the MSI and closing itself. LogLens also performs a quiet update check shortly after startup and prompts when a newer version is available, while keeping Help \u003e Check for Updates available on demand."
+    "version":  "1.0.11",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.11",
+    "notes":  "UI polish and auto-refresh\n\n- Help menu Check for Updates now runs interactively from the menu.\n- File and Help menus show a visible hover highlight on items.\n- Search tab Response pane is hidden when no response block exists.\n- Log Files Size column sorts numerically (KB, MB, GB aware).\n- Log list auto-refreshes on instance or partition switch.\n"
 }
