@@ -1,7 +1,7 @@
 {
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.6/LogLens_for_O_Series_Setup_1_0_6.msi",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.7/LogLens_for_O_Series_Setup_1_0_7.msi",
     "published_at":  "2026-04-14",
-    "version":  "1.0.6",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.6",
+    "version":  "1.0.7",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.7",
     "notes":  ""
 }
