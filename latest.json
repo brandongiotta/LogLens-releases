@@ -1,7 +1,7 @@
 {
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.7/LogLens_for_O_Series_Setup_1_0_7.msi",
-    "published_at":  "2026-04-14",
-    "version":  "1.0.7",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.7",
-    "notes":  ""
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.8/LogLens_for_O_Series_Setup_1_0_8.msi",
+    "published_at":  "2026-04-15",
+    "version":  "1.0.8",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.8",
+    "notes":  "Connection handling is now instance-based with cached partitions, searchable/sorted instance and partition selectors, persisted auth tokens with silent refresh on 401, and Windows DPAPI protection for client secrets and cached tokens."
 }
