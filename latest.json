@@ -1,7 +1,7 @@
 {
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.11/LogLens_for_O_Series_Setup_1_0_11.msi",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.12/LogLens_for_O_Series_Setup_1_0_12.msi",
     "published_at":  "2026-04-15",
-    "version":  "1.0.11",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.11",
-    "notes":  "UI polish and auto-refresh\n\n- Help menu Check for Updates now runs interactively from the menu.\n- File and Help menus show a visible hover highlight on items.\n- Search tab Response pane is hidden when no response block exists.\n- Log Files Size column sorts numerically (KB, MB, GB aware).\n- Log list auto-refreshes on instance or partition switch.\n"
+    "version":  "1.0.12",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.12",
+    "notes":  "Search preview is now a two-pane Request plus Response/Error layout. Shared docked find bars now support case-insensitive matching, F3 and Shift+F3, Esc to close, and match counters. Preview and pop-out viewers now include line-number gutters, XML syntax highlighting, improved search result sorting and filtering, and refined header instance and partition pickers."
 }
