@@ -1,7 +1,7 @@
 {
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.9/LogLens_for_O_Series_Setup_1_0_9.msi",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.0.10/LogLens_for_O_Series_Setup_1_0_10.msi",
     "published_at":  "2026-04-15",
-    "version":  "1.0.9",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.9",
-    "notes":  "Help \u003e Check for Updates now downloads the MSI inside LogLens, stages the installer in the background, closes the app cleanly, and hands off to Windows Installer. This release also adds a per-user test update feed override so one machine can validate a private latest.json feed without changing the public updater channel."
+    "version":  "1.0.10",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.10",
+    "notes":  "Fixes the in-app updater handoff so LogLens now reliably launches Windows Installer after downloading the MSI and closing itself. LogLens also performs a quiet update check shortly after startup and prompts when a newer version is available, while keeping Help \u003e Check for Updates available on demand."
 }
