@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.2",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.2/LogLens_for_O_Series_Setup_1_1_2.msi",
-    "notes":  "Cache survives instance and partition switches with LRU eviction. Configurable cache limit via Settings \u003e Performance. Dynamic parallel fetch workers. API credentials documentation link in the User Guide.",
-    "published_at":  "2026-04-16",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.2"
+    "version":  "1.1.3",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.3/LogLens_for_O_Series_Setup_1_1_3.msi",
+    "notes":  "Adds an opt-in Allow Anonymous Statistics toggle in Settings \u003e Privacy. When enabled, LogLens sends a small anonymous record after each completed search: the field name searched, duration, result count, file count, app version, and Windows major version. No search values, log content, instance names, or identifying information is ever collected. Off by default.",
+    "published_at":  "2026-04-17",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.3"
 }
