@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.4",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.4/LogLens_for_O_Series_Setup_1_1_4.msi",
-    "notes":  "Adds Help \u003e Submit Feedback for submitting bug reports, enhancements, and questions directly from the app. No GitHub account required.",
+    "version":  "1.1.5",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.5/LogLens_for_O_Series_Setup_1_1_5.msi",
+    "notes":  "Fixes a false positive match issue where Document Number and Fusion Transaction Id searches could report the wrong line number and show an incorrect request block on busy log files.",
     "published_at":  "2026-04-17",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.4"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.5"
 }
