@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.7",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.7/LogLens_for_O_Series_Setup_1_1_7.msi",
-    "notes":  "Adds a header Transaction Dump toggle, Help/User Guide find support with Ctrl+F and context menu actions, and dynamic Performance settings cache limits with reset-to-default.",
+    "version":  "1.1.8",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.8/LogLens_for_O_Series_Setup_1_1_8.msi",
+    "notes":  "Improves Transaction Dump status reliability by preferring partition-specific settings over defaults, adding a manual Refresh Status action, and retrying post-toggle status confirmation before asking the user to verify directly in the O Series UI.",
     "published_at":  "2026-04-20",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.7"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.8"
 }
