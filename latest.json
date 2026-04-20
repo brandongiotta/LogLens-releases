@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.6",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.6/LogLens_for_O_Series_Setup_1_1_6.msi",
-    "notes":  "Telemetry redesigned to batch events and flush once on app close, eliminating GitHub Actions workflow failures. Expanded metrics include cache hit rate, fetch duration, workers used, and MB transferred per session.",
-    "published_at":  "2026-04-17",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.6"
+    "version":  "1.1.7",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.7/LogLens_for_O_Series_Setup_1_1_7.msi",
+    "notes":  "Adds a header Transaction Dump toggle, Help/User Guide find support with Ctrl+F and context menu actions, and dynamic Performance settings cache limits with reset-to-default.",
+    "published_at":  "2026-04-20",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.7"
 }
