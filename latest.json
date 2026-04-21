@@ -1,7 +1,7 @@
 {
-    "version":  "1.1.9",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.1.9/LogLens_for_O_Series_Setup_1_1_9.msi",
-    "notes":  "Improved reliability of updates to transaction dump setting",
+    "version":  "1.2.0",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.0/LogLens_for_O_Series_Setup_1_2_0.msi",
+    "notes":  "Adds Diagnostics Logging with session-based troubleshooting logs, text attachment support in Submit Feedback, and more reliable per-instance connection handling for hosted and load-balanced O Series environments.",
     "published_at":  "2026-04-20",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.9"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.0"
 }
