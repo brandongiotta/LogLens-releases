@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.2",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.2/LogLens_for_O_Series_Setup_1_2_2.msi",
-    "notes":  "Improves encrypted connection export compatibility, cleans up failed and deleted connection state, and streamlines Filters tab business event selection.",
+    "version":  "1.2.3",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.3/LogLens_for_O_Series_Setup_1_2_3.msi",
+    "notes":  "",
     "published_at":  "2026-04-21",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.2"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.3"
 }
