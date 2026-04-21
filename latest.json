@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.1",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.1/LogLens_for_O_Series_Setup_1_2_1.msi",
-    "notes":  "Adds connection import/export with optional encrypted client secret transfer, unifies searchable picker behavior across the app, and tightens search results so they stay constrained to the selected message type.",
+    "version":  "1.2.2",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.2/LogLens_for_O_Series_Setup_1_2_2.msi",
+    "notes":  "Improves encrypted connection export compatibility, cleans up failed and deleted connection state, and streamlines Filters tab business event selection.",
     "published_at":  "2026-04-21",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.1"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.2"
 }
