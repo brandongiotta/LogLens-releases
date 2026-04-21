@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.0",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.0/LogLens_for_O_Series_Setup_1_2_0.msi",
-    "notes":  "Adds Diagnostics Logging with session-based troubleshooting logs, text attachment support in Submit Feedback, and more reliable per-instance connection handling for hosted and load-balanced O Series environments.",
-    "published_at":  "2026-04-20",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.0"
+    "version":  "1.2.1",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.1/LogLens_for_O_Series_Setup_1_2_1.msi",
+    "notes":  "Adds connection import/export with optional encrypted client secret transfer, unifies searchable picker behavior across the app, and tightens search results so they stay constrained to the selected message type.",
+    "published_at":  "2026-04-21",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.1"
 }
