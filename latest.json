@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.5",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.5/LogLens_for_O_Series_Setup_1_2_5.msi",
-    "notes":  "Added the in-app diagnostics benchmark workflow, improved view_stats resilience, and fixed alternating row shading after sorts.",
+    "version":  "1.2.6",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.6/LogLens_for_O_Series_Setup_1_2_6.msi",
+    "notes":  "Improved search cancellation during log loading and fixed a prefetch worker mismatch that could trigger a terminal error during cancel.",
     "published_at":  "2026-04-22",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.5"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.6"
 }
