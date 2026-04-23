@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.4",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.4/LogLens_for_O_Series_Setup_1_2_4.msi",
-    "notes":  "Improved hosted log-load performance, added instance/local benchmark reporting, and expanded fetch telemetry.",
+    "version":  "1.2.5",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.5/LogLens_for_O_Series_Setup_1_2_5.msi",
+    "notes":  "Added the in-app diagnostics benchmark workflow, improved view_stats resilience, and fixed alternating row shading after sorts.",
     "published_at":  "2026-04-22",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.4"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.5"
 }
