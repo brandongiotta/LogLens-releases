@@ -1,7 +1,7 @@
 {
     "version":  "1.2.8",
     "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.8/LogLens_for_O_Series_Setup_1_2_8.msi",
-    "notes":  "What\u0027\u0027s new in 1.2.8:",
+    "notes":  "What\u0027s new in 1.2.8:\n- User guide is now native HTML with proper in-app navigation instead of rendered Markdown.\n- Release scripts now enforce that the user guide and app version are updated together before a release can be published.\n\nAlso new in 1.2.7 (if upgrading from 1.2.6 or earlier):\n- Tools menu replaces the Settings menu - Tools \u003e Settings... opens the Performance and Privacy dialog.\n- Bulk export now follows filtered rows: Download All and Export All Matches operate on what\u0027s currently visible.\n- Search has a single Match Order control, x of y visible result feedback, and stacked result filters.",
     "published_at":  "2026-04-29",
     "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.8"
 }
