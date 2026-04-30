@@ -1,7 +1,7 @@
 {
-    "version":  "1.2.6",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.6/LogLens_for_O_Series_Setup_1_2_6.msi",
-    "notes":  "Improved search cancellation during log loading and fixed a prefetch worker mismatch that could trigger a terminal error during cancel.",
-    "published_at":  "2026-04-22",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.6"
+    "version":  "1.2.7",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.2.7/LogLens_for_O_Series_Setup_1_2_7.msi",
+    "notes":  "Renames Settings to Tools, adds visible-row bulk export actions, and refreshes Search filtering and user guidance.",
+    "published_at":  "2026-04-29",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.7"
 }
