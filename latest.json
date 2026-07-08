@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.3",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.3/LogLens_for_O_Series_Setup_1_3_3.msi",
-    "notes":  "What\u0027s new in 1.3.3:\n- Adds large-file preview mode for very large logs, loading navigable line chunks so the app stays responsive when switching into multi-million-line files.\n- Keeps pop-out, in-viewer find, go-to-line, previous/next line navigation, font sizing, and wrap controls working with large-file chunks.\n- Moves the shared download folder into Tools \u003e Settings, defaults it to %USERPROFILE%\\Downloads, and adds Open Download Folder access from both Log Files and Search.\n- Updates Log Files downloads so single-file downloads save directly and open immediately, multi-select becomes Download Selected, and Download All creates a timestamped zip for the visible file set without a Save As prompt.\n\nAlso new in 1.3.2 (if upgrading from 1.3.1 or earlier):\n- Adds elapsed request timing to detailed diagnostics logs and always-on app logs so hosted-instance slowdowns are easier to triage.\n- Changes connection logging into a numbered five-step workflow from Connection started through Connection ready.",
-    "published_at":  "2026-06-26",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.3"
+    "version":  "1.3.4",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.4/LogLens_for_O_Series_Setup_1_3_4.msi",
+    "notes":  "",
+    "published_at":  "2026-07-08",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.4"
 }
