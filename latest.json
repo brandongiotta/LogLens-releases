@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.4",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.4/LogLens_for_O_Series_Setup_1_3_4.msi",
-    "notes":  "What\u0027s new in 1.3.4:\n- Improves large search responsiveness by moving log fetch and search-index preparation into a background worker before the match scan begins.\n- Offers to prepare large log inventories for faster searching once per app session per instance/partition, using configurable file-count and total-size thresholds.\n- Expands diagnostics logging with search scope size, cache state, fetch/index timing, retry counts, match timing, total search timing, files examined, skipped-file counts, and cancellation status.\n- Adds Clear Log Cache and current cache-size visibility to Tools \u003e Settings.\n- Defaults Search results to timestamp order with oldest matches at the top.\n\nAlso new in 1.3.3 (if upgrading from 1.3.2 or earlier):\n- Adds large-file preview mode for very large logs, loading navigable line chunks so the app stays responsive when switching into multi-million-line files.\n- Moves the shared download folder into Tools \u003e Settings, defaults it to %USERPROFILE%\\Downloads, and adds Open Download Folder access from both Log Files and Search.",
-    "published_at":  "2026-07-08",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.4"
+    "version":  "1.3.5",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.5/LogLens_for_O_Series_Setup_1_3_5.msi",
+    "notes":  "What\u0027s new in 1.3.5:\n- Adds Light, Dark, and System appearance modes in Tools \u003e Settings. Light preserves the existing LogLens look, Dark adds a softer charcoal UI, and System follows Windows when available.\n- Updates the in-app User Guide window and guide content so the contents pane and documentation match the selected appearance mode.\n- Expands built-in Supplies and Procurement search fields to Flexible Field 1 through Flexible Field 100.\n- Lets Enter run a search from any Search Parameters field.\n- Adds main-tab keyboard shortcuts: Ctrl+Tab, Ctrl+Shift+Tab, and Ctrl+1 through Ctrl+4.\n- Adds a Settings option for which tab opens after connecting from the Connections tab.",
+    "published_at":  "2026-08-04",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.5"
 }
