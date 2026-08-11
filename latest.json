@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.5",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.5/LogLens_for_O_Series_Setup_1_3_5.msi",
-    "notes":  "What\u0027s new in 1.3.5:\n- Adds Light, Dark, and System appearance modes in Tools \u003e Settings. Light preserves the existing LogLens look, Dark adds a softer charcoal UI, and System follows Windows when available.\n- Updates the in-app User Guide window and guide content so the contents pane and documentation match the selected appearance mode.\n- Expands built-in Supplies and Procurement search fields to Flexible Field 1 through Flexible Field 100.\n- Lets Enter run a search from any Search Parameters field.\n- Adds main-tab keyboard shortcuts: Ctrl+Tab, Ctrl+Shift+Tab, and Ctrl+1 through Ctrl+4.\n- Adds a Settings option for which tab opens after connecting from the Connections tab.",
-    "published_at":  "2026-08-04",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.5"
+    "version":  "1.3.6",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.6/LogLens_for_O_Series_Setup_1_3_6.msi",
+    "notes":  "What\u0027s new in 1.3.6:\n- Updates installer metadata so Windows shows Brandon Giotta as the LogLens publisher instead of Unknown.",
+    "published_at":  "2026-08-10",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.6"
 }
