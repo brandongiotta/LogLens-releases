@@ -1,7 +1,7 @@
 {
-    "version":  "1.3.6",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.6/LogLens_for_O_Series_Setup_1_3_6.msi",
-    "notes":  "What\u0027s new in 1.3.6:\n- Updates installer metadata so Windows shows Brandon Giotta as the LogLens publisher instead of Unknown.",
+    "version":  "1.3.7",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.7/LogLens_for_O_Series_Setup_1_3_7.msi",
+    "notes":  "What\u0027s new in 1.3.7:\n- Streamlines in-app updates so after accepting the update prompt, LogLens downloads the MSI, closes, installs silently, and relaunches without stepping through Windows Installer pages.",
     "published_at":  "2026-08-10",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.6"
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.7"
 }
