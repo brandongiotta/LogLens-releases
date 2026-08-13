@@ -1,7 +1,7 @@
 {
     "version":  "1.3.9",
     "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.3.9/LogLens_for_O_Series_Setup_1_3_9.msi",
-    "notes":  "What\u0027s new in 1.3.9:\n- Redesigns Tools \u003e Settings into a left-nav dialog with clearer General, Performance, Files \u0026 Exports, and Privacy sections.\n- Adds settings controls for the warm-cache prompt while keeping the existing defaults easy to restore.\n- Polishes light and dark mode styling for settings controls, feedback category selection, Log Files date filters, the date/time picker, and the About dialog.",
+    "notes":  "What\u0027s new in 1.3.9:\n- Redesigns Tools \u003e Settings into a left-nav dialog with clearer General, Performance, Files \u0026 Exports, and Privacy sections.\n- Adds settings controls for the warm-cache prompt while keeping the existing defaults easy to restore.\n- Polishes light and dark mode styling for settings controls, feedback category selection, Log Files date filters, the date/time picker, and the About dialog.\n\nWhat\u0027s new in 1.3.8:\n- Adds a Default business event setting so Search can initialize from O Series user preferences, or from a fixed Supplies or Procurement choice.\n- Repairs common O Series log-writer UTF-8 mojibake in previews, pop-outs, log downloads, zip downloads, and Search match exports.\n- Improves Search feedback with clearer no-results messages and inline Copied! confirmation beside preview copy buttons.",
     "published_at":  "2026-08-12",
     "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.9"
 }
