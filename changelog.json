@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "version": "1.4.2",
+      "tag": "v1.4.2",
+      "published_at": "2026-08-26T22:38:43Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.4.2",
+      "notes": [
+        "Fixes the 1.4.1 installer startup failure by excluding incompatible ICU DLLs that prevented PySide6 from loading in frozen builds.",
+        "Adds dynamic cumulative release notes to the updater so users only see versions newer than the one they have installed.",
+        "Publishes the structured changelog with each release so the update dialog can stay concise for small jumps and complete for older installs."
+      ]
+    },
+    {
+      "version": "1.4.1",
+      "tag": "v1.4.1",
+      "published_at": "2026-08-26T21:54:14Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.4.1",
+      "notes": [
+        "Fixes stale warm-cache searches so updated log files are downloaded again when cached content is older than the latest log inventory timestamp.",
+        "Adds diagnostics counters for stale cached log content, making cache-related search misses easier to confirm."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "tag": "v1.4.0",
+      "published_at": "2026-08-21T19:14:16Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.4.0",
+      "notes": [
+        "Adds From and To request timestamp parameters to Search so matches can be limited to a known time window while results are collected.",
+        "Uses the same * wildcard convention in the Log Files filter, with hover help when the placeholder text is clipped.",
+        "Polishes the shared date/time picker with compact layout, no week-number column, larger month/year controls, and two-digit time values."
+      ]
+    },
+    {
+      "version": "1.3.11",
+      "tag": "v1.3.11",
+      "published_at": "2026-08-14T14:55:29Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.11",
+      "notes": [
+        "Adds a Cache Refresh button beside the Transaction Dump controls, submitting the O Series admin cache refresh with the active bearer token and clear success/error feedback.",
+        "Adds * wildcard support in Search Value, including \\* for literal asterisks, plus placeholder and tooltip guidance.",
+        "Keeps Search users on the current tab when no connection is active, pointing them to the global Instance selector instead of redirecting to Connections."
+      ]
+    },
+    {
+      "version": "1.3.10",
+      "tag": "v1.3.10",
+      "published_at": "2026-08-13T02:51:23Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.10",
+      "notes": [
+        "Fixes the Help > About logo in the installed app by resolving bundled assets correctly from frozen builds.",
+        "Ensures the new settings checkbox and dropdown arrow assets are included in packaged installers."
+      ]
+    },
+    {
+      "version": "1.3.9",
+      "tag": "v1.3.9",
+      "published_at": "2026-08-13T02:17:07Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.9",
+      "notes": [
+        "Redesigns Tools > Settings into a left-nav dialog with clearer General, Performance, Files & Exports, and Privacy sections.",
+        "Adds settings controls for the warm-cache prompt while keeping the existing defaults easy to restore.",
+        "Polishes light and dark mode styling for settings controls, feedback category selection, Log Files date filters, the date/time picker, and the About dialog."
+      ]
+    },
+    {
+      "version": "1.3.8",
+      "tag": "v1.3.8",
+      "published_at": "2026-08-12T20:08:25Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.8",
+      "notes": [
+        "Adds a Default business event setting so Search can initialize from O Series user preferences, or from a fixed Supplies or Procurement choice.",
+        "Repairs common O Series log-writer UTF-8 mojibake in previews, pop-outs, log downloads, zip downloads, and Search match exports.",
+        "Improves Search feedback with clearer no-results messages and inline Copied! confirmation beside preview copy buttons."
+      ]
+    },
+    {
+      "version": "1.3.7",
+      "tag": "v1.3.7",
+      "published_at": "2026-08-11T01:29:04Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.7",
+      "notes": [
+        "Streamlines in-app updates so after accepting the update prompt, LogLens downloads the MSI, closes, installs silently, and relaunches without stepping through Windows Installer pages."
+      ]
+    },
+    {
+      "version": "1.3.6",
+      "tag": "v1.3.6",
+      "published_at": "2026-08-11T01:12:06Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.6",
+      "notes": [
+        "Updates installer metadata so Windows shows Brandon Giotta as the LogLens publisher instead of Unknown."
+      ]
+    },
+    {
+      "version": "1.3.5",
+      "tag": "v1.3.5",
+      "published_at": "2026-08-04T21:32:48Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.5",
+      "notes": [
+        "Adds Light, Dark, and System appearance modes in Tools > Settings. Light preserves the existing LogLens look, Dark adds a softer charcoal UI, and System follows Windows when available.",
+        "Updates the in-app User Guide window and guide content so the contents pane and documentation match the selected appearance mode.",
+        "Expands built-in Supplies and Procurement search fields to Flexible Field 1 through Flexible Field 100.",
+        "Lets Enter run a search from any Search Parameters field.",
+        "Adds main-tab keyboard shortcuts: Ctrl+Tab, Ctrl+Shift+Tab, and Ctrl+1 through Ctrl+4.",
+        "Adds a Settings option for which tab opens after connecting from the Connections tab."
+      ]
+    },
+    {
+      "version": "1.3.4",
+      "tag": "v1.3.4",
+      "published_at": "2026-07-08T19:52:29Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.4",
+      "notes": [
+        "Improves large search responsiveness by moving log fetch and search-index preparation into a background worker before the match scan begins.",
+        "Offers to prepare large log inventories for faster searching once per app session per instance/partition, using configurable file-count and total-size thresholds.",
+        "Expands diagnostics logging with search scope size, cache state, fetch/index timing, retry counts, match timing, total search timing, files examined, skipped-file counts, and cancellation status.",
+        "Adds Clear Log Cache and current cache-size visibility to Tools > Settings.",
+        "Defaults Search results to timestamp order with oldest matches at the top."
+      ]
+    },
+    {
+      "version": "1.3.3",
+      "tag": "v1.3.3",
+      "published_at": "2026-06-26T19:04:32Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.3",
+      "notes": [
+        "Adds large-file preview mode for very large logs, loading navigable line chunks so the app stays responsive when switching into multi-million-line files.",
+        "Keeps pop-out, in-viewer find, go-to-line, previous/next line navigation, font sizing, and wrap controls working with large-file chunks.",
+        "Moves the shared download folder into Tools > Settings, defaults it to %USERPROFILE%\\Downloads, and adds Open Download Folder access from both Log Files and Search.",
+        "Updates Log Files downloads so single-file downloads save directly and open immediately, multi-select becomes Download Selected, and Download All creates a timestamped zip for the visible file set without a Save As prompt."
+      ]
+    },
+    {
+      "version": "1.3.2",
+      "tag": "v1.3.2",
+      "published_at": "2026-06-17T16:24:06Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.2",
+      "notes": [
+        "Adds elapsed request timing to detailed diagnostics logs for OAuth, partition discovery, settings reads, log-list refreshes, and log-content fetches.",
+        "Adds connection and log-refresh Duration-ms fields to the always-on app log so hosted-instance performance issues can be triaged from normal support logs.",
+        "Changes connection logging into a numbered five-step workflow from Connection started through Connection ready, including OAuth token source, partition loading, active partition selection, Transaction Dump status, and initial log-list loading.",
+        "Keeps the 1.3.1 logging model intact: single-line normal app events stay pipe-aligned and detailed HTTP diagnostics remain opt-in."
+      ]
+    },
+    {
+      "version": "1.3.1",
+      "tag": "v1.3.1",
+      "published_at": "2026-06-17T15:07:45Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.1",
+      "notes": [
+        "Adds an always-on high-level app log at %LOCALAPPDATA%\\LogLens\\logs\\app.log for lifecycle, connection, log-list refresh, and update workflow events.",
+        "Normal app log entries are single-line, fixed-width pipe aligned, redacted, and include explicit outcomes such as current, needs update, success, and error.",
+        "Detailed HTTP diagnostics remain opt-in through Tools > Diagnostics Logging, while normal logging now captures enough context to troubleshoot issues that happened before diagnostics were enabled."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "tag": "v1.3.0",
+      "published_at": "2026-06-15T15:00:08Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.3.0",
+      "notes": [
+        "Search now defaults Message Type to All Message Types so Supplies and Procurement searches can cover every known request type for the selected business event.",
+        "The Search results grid now includes a sortable, filterable Message Type column to show which request type each match came from.",
+        "Changing Business Event or using Reset Search returns Message Type to All Message Types."
+      ]
+    },
+    {
+      "version": "1.2.9",
+      "tag": "v1.2.9",
+      "published_at": "2026-05-29T17:00:49Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.9",
+      "notes": [
+        "Procurement searches now include Asset Movement and Inventory Removal message types.",
+        "Message Type choices are displayed as readable labels like Purchase Order, Invoice Verification, and Distribute Tax while preserving exact request/response matching.",
+        "Optional raw log content API support improves compatibility with hosted environments that expose raw content directly.",
+        "Anonymous telemetry and reporting tools now include richer usage summaries, payload preview, MSI download reports, and an HTML download report.",
+        "Fixes include Last Updated sorting on the Log Files tab, stale prepared search content after raw content refresh, and several release/user-guide packaging issues."
+      ]
+    },
+    {
+      "version": "1.2.8",
+      "tag": "v1.2.8",
+      "published_at": "2026-04-30T02:57:19Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.8",
+      "notes": [
+        "User guide is now native HTML with proper in-app navigation instead of rendered Markdown.",
+        "Release scripts now enforce that the user guide and app version are updated together before a release can be published."
+      ]
+    },
+    {
+      "version": "1.2.7",
+      "tag": "v1.2.7",
+      "published_at": "2026-04-30T00:08:14Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.7",
+      "notes": [
+        "Renames Settings to Tools, adds visible-row bulk export actions, and refreshes Search filtering and user guidance."
+      ]
+    },
+    {
+      "version": "1.2.6",
+      "tag": "v1.2.6",
+      "published_at": "2026-04-23T03:14:07Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.6",
+      "notes": [
+        "Improved search cancellation during log loading and fixed a prefetch worker mismatch that could trigger a terminal error during cancel."
+      ]
+    },
+    {
+      "version": "1.2.5",
+      "tag": "v1.2.5",
+      "published_at": "2026-04-23T03:00:03Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.5",
+      "notes": [
+        "Added the in-app diagnostics benchmark workflow, improved view_stats resilience, and fixed alternating row shading after sorts."
+      ]
+    },
+    {
+      "version": "1.2.4",
+      "tag": "v1.2.4",
+      "published_at": "2026-04-22T18:53:42Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.4",
+      "notes": [
+        "Improved hosted log-load performance, added instance/local benchmark reporting, and expanded fetch telemetry."
+      ]
+    },
+    {
+      "version": "1.2.3",
+      "tag": "v1.2.3",
+      "published_at": "2026-04-21T21:15:27Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.3",
+      "notes": [
+        "Improves preview-pane navigation and readability across the Log Files and Search tabs. Wrap preference now persists per viewer, wrap defaults to on for new installs, `View Full Log` and `Go to Line` align more predictably, and Log pop-out windows now open at the same visible line position as the in-tab preview.",
+        "Search previews now show source-aligned line numbers from the original log file instead of restarting at `1`, which makes it much easier to correlate previewed request and response blocks back to the underlying log.",
+        "Adds `Ctrl+G` and right-click **Go to Line...** support in log viewers, and fixes find-bar Enter behavior so pressing Enter continues the find workflow instead of accidentally changing preview font size."
+      ]
+    },
+    {
+      "version": "1.2.2",
+      "tag": "v1.2.2",
+      "published_at": "2026-04-21T16:33:31Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.2",
+      "notes": [
+        "Improves encrypted connection export compatibility, cleans up failed and deleted connection state, and streamlines Filters tab business event selection."
+      ]
+    },
+    {
+      "version": "1.2.1",
+      "tag": "v1.2.1",
+      "published_at": "2026-04-21T15:40:54Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.1",
+      "notes": [
+        "Adds connection import/export with optional encrypted client secret transfer, unifies searchable picker behavior across the app, and tightens search results so they stay constrained to the selected message type."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "tag": "v1.2.0",
+      "published_at": "2026-04-21T00:56:30Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.2.0",
+      "notes": [
+        "Adds Diagnostics Logging with session-based troubleshooting logs, text attachment support in Submit Feedback, and more reliable per-instance connection handling for hosted and load-balanced O Series environments."
+      ]
+    },
+    {
+      "version": "1.1.9",
+      "tag": "v1.1.9",
+      "published_at": "2026-04-20T18:48:13Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.9",
+      "notes": [
+        "Improved reliability of updates to transaction dump setting"
+      ]
+    },
+    {
+      "version": "1.1.8",
+      "tag": "v1.1.8",
+      "published_at": "2026-04-20T17:43:14Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.8",
+      "notes": [
+        "Improves Transaction Dump status reliability by preferring partition-specific settings over defaults, adding a manual Refresh Status action, and retrying post-toggle status confirmation before asking the user to verify directly in the O Series UI."
+      ]
+    },
+    {
+      "version": "1.1.7",
+      "tag": "v1.1.7",
+      "published_at": "2026-04-20T17:05:36Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.7",
+      "notes": [
+        "Adds a header Transaction Dump toggle, Help/User Guide find support with Ctrl+F and context menu actions, and dynamic Performance settings cache limits with reset-to-default."
+      ]
+    },
+    {
+      "version": "1.1.6",
+      "tag": "v1.1.6",
+      "published_at": "2026-04-18T01:15:47Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.6",
+      "notes": [
+        "Telemetry redesigned to batch events and flush once on app close, eliminating GitHub Actions workflow failures. Expanded metrics include cache hit rate, fetch duration, workers used, and MB transferred per session."
+      ]
+    },
+    {
+      "version": "1.1.5",
+      "tag": "v1.1.5",
+      "published_at": "2026-04-17T20:03:01Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.5",
+      "notes": [
+        "Fixes a false positive match issue where Document Number and Fusion Transaction Id searches could report the wrong line number and show an incorrect request block on busy log files."
+      ]
+    },
+    {
+      "version": "1.1.4",
+      "tag": "v1.1.4",
+      "published_at": "2026-04-17T19:25:23Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.4",
+      "notes": [
+        "Adds Help > Submit Feedback for submitting bug reports, enhancements, and questions directly from the app. No GitHub account required."
+      ]
+    },
+    {
+      "version": "1.1.3",
+      "tag": "v1.1.3",
+      "published_at": "2026-04-17T14:47:12Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.3",
+      "notes": [
+        "Adds an opt-in Allow Anonymous Statistics toggle in Settings > Privacy. When enabled, LogLens sends a small anonymous record after each completed search: the field name searched, duration, result count, file count, app version, and Windows major version. No search values, log content, instance names, or identifying information is ever collected. Off by default."
+      ]
+    },
+    {
+      "version": "1.1.2",
+      "tag": "v1.1.2",
+      "published_at": "2026-04-16T20:39:52Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.2",
+      "notes": [
+        "Log file content is now cached across instance and partition switches — switching back to a previously visited environment no longer triggers a full re-download. Cache is only cleared when a connection is explicitly invalidated.\n\nThe cache uses an LRU eviction strategy with a configurable size limit. The new **Settings > Performance** menu lets you set the limit from 100 MB up to 4 GB (default 500 MB).\n\nThe number of parallel fetch connections now scales automatically with the size and count of the files being loaded — large environments get more workers without manual tuning.\n\nThe in-app **User Guide** (Help > User Guide) now includes an **Obtaining API Credentials** section with a direct link to the Vertex O Series authentication documentation. External links in the guide now open in your default browser."
+      ]
+    },
+    {
+      "version": "1.1.1",
+      "tag": "v1.1.1",
+      "published_at": "2026-04-16T16:54:32Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.1.1",
+      "notes": [
+        "Search feels dramatically faster on large log sets. Results stream into the grid with far less UI lag, and the preview panes wait until the search finishes so the app stays responsive while scanning.\n\nThe Search tab now shows a live **Elapsed** timer while a search runs, making it much easier to judge search performance in real time.\n\nCommon high-value searches — especially **Document Number** and **Fusion Transaction Id** — now use optimized lookup paths that can cut through large log bundles much more quickly than the older full-scan behavior.\n\nTargeted searches are now smarter about transaction boundaries. They stay aligned to the selected message type and avoid misleading duplicate rows caused by post-error request echoes.\n\nSearch and Log Files previews now share the upgraded docked find experience used by pop-out windows, including case-insensitive matching, F3 / Shift+F3, Esc to close, and live 1/10 style match counters.\n\nSearch preview and pop-out viewers now include gutter line numbers and XML syntax coloring where applicable.\n\nSearch results support in-grid sorting plus Excel-style value filtering on **Found At** and **Log File**.\n\nThe in-app user guide (Help > User Guide) now renders with the original look-and-feel and has a working Table of Contents with clickable section links."
+      ]
+    },
+    {
+      "version": "1.0.12",
+      "tag": "v1.0.12",
+      "published_at": "2026-04-15T21:19:29Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.12",
+      "notes": [
+        "Search tab previews now use a cleaner two-pane layout: **Request** on the left, and a shared **Response** / **Error** pane on the right that renames itself based on the selected match.\n\nSearch and Log Files previews now share the upgraded docked find experience used by pop-out windows, including case-insensitive matching, F3 / Shift+F3, Esc to close, and live 1/10 style match counters.\n\nSearch preview and pop-out viewers now include gutter line numbers and XML syntax coloring where applicable.\n\nSearch results support in-grid sorting plus Excel-style value filtering on **Found At** and **Log File**.\n\nHeader instance and partition pickers now behave like true inline filters: typing narrows visible options without auto-connecting, clicks outside the popup cancel cleanly, and the launch-only \"Select a connection\" prompt disappears after the first real connection.\n\nThe header Connect/Refresh button has been removed; instance and partition selection now drive connection and refresh behavior directly."
+      ]
+    },
+    {
+      "version": "1.0.11",
+      "tag": "v1.0.11",
+      "published_at": "2026-04-15T16:34:19Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.11",
+      "notes": [
+        "Fixes **Help > Check for Updates** so it now reliably reports \"up to date\" (or surfaces an update prompt) when invoked from the menu, instead of silently returning like the quiet startup check.\n\nLog list now refreshes automatically when switching instances (and continues to auto-refresh on partition switch) — the \"Refresh Log List?\" confirmation prompt has been retired.\n\nSearch tab **Response** preview pane is now hidden entirely for error records that have no response block, matching how the Error pane already collapses when not applicable.\n\nLog Files **Size** column now sorts numerically (KB/MB/GB aware) instead of lexicographically.\n\nFile and Help menus now show a visible hover highlight on menu items, so the menu no longer feels unresponsive."
+      ]
+    },
+    {
+      "version": "1.0.10",
+      "tag": "v1.0.10",
+      "published_at": "2026-04-15T16:04:29Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.10",
+      "notes": [
+        "Fixes the in-app updater handoff so LogLens now reliably launches Windows Installer after downloading the MSI and closing itself.\n\nLogLens now performs a quiet update check shortly after startup and prompts when a newer version is available, while still keeping Help > Check for Updates available on demand.\n\nThe updater now records lightweight temp logs during helper launch and installer handoff, making support and troubleshooting much easier if Windows blocks the upgrade flow."
+      ]
+    },
+    {
+      "version": "1.0.9",
+      "tag": "v1.0.9",
+      "published_at": "2026-04-15T14:48:17Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.9",
+      "notes": [
+        "Streamlines the in-app update installation flow, improving reliability of the updater helper launch and MSI handoff on Windows."
+      ]
+    },
+    {
+      "version": "1.0.8",
+      "tag": "v1.0.8",
+      "published_at": "2026-04-15T14:11:42Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.8",
+      "notes": [
+        "Client secrets and cached auth tokens are now protected at rest using the current Windows user's DPAPI context.\n\nConnections are now instance-based with cached partition discovery — no need to create separate saved connections per partition on the same environment.\n\nHeader instance and partition selectors are now searchable and alphabetically sorted.\n\nTokens are reused across instance switches and app restarts while still valid.\n\nVarious header control polish and search reset fixes."
+      ]
+    },
+    {
+      "version": "1.0.7",
+      "tag": "v1.0.7",
+      "published_at": "2026-04-15T01:32:10Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.7",
+      "notes": [
+        "Stability and UI polish improvements over 1.0.6."
+      ]
+    },
+    {
+      "version": "1.0.6",
+      "tag": "v1.0.6",
+      "published_at": "2026-04-15T01:23:52Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.6",
+      "notes": [
+        "Stability improvements and minor fixes."
+      ]
+    },
+    {
+      "version": "1.0.5",
+      "tag": "v1.0.5",
+      "published_at": "2026-04-14T20:19:20Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.5",
+      "notes": [
+        "Adds the in-app **User Guide** accessible from the Help menu, covering navigation, single-click vs double-click behavior, scoped searches, pop-out windows, find bar usage, and keyboard shortcuts."
+      ]
+    },
+    {
+      "version": "1.0.4",
+      "tag": "v1.0.4",
+      "published_at": "2026-04-14T18:47:30Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.4",
+      "notes": [
+        "Early release. Core log browsing, search, and connection management."
+      ]
+    },
+    {
+      "version": "1.0.3",
+      "tag": "v1.0.3",
+      "published_at": "2026-04-14T18:40:33Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.0.3",
+      "notes": [
+        "Early release. Core log browsing, search, and connection management."
+      ]
+    }
+  ]
+}
