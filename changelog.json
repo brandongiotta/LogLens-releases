@@ -2,6 +2,21 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.5.1",
+      "tag": "v1.5.1",
+      "published_at": "2026-09-02T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.1",
+      "notes": [
+        "Builds transaction-specific AI research plans and heuristically links adjacent Purchase Order or Invoice Verification results with matching Accrual or Distribute Tax Procurement follow-on evidence.",
+        "Adds named AI credential profiles, profile-specific model selection, and Windows-native certificate trust for organizations that inspect HTTPS traffic.",
+        "Adds a local, personal Analyze AI Usage report with provider/model cost, token, duration, error, and matched-pair summaries plus CSV export.",
+        "Makes Settings safer to edit with Apply, dirty-state tracking, automatic capture of visible profile edits, and reliable deletion of the last profile.",
+        "Keeps Search Record numbers fixed to timestamp order when the grid is sorted, and fixes clipped or unclickable header-filter dropdown items.",
+        "Caps Claude dynamic web search to avoid runaway calls and corrects Claude Sonnet 5 estimates after a cancelled pricing change.",
+        "Hardens public-release publishing so large cumulative changelog.json payloads upload reliably."
+      ]
+    },
+    {
       "version": "1.5.0",
       "tag": "v1.5.0",
       "published_at": "2026-09-01T00:00:00Z",
