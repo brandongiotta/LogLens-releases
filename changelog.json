@@ -2,6 +2,19 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.5.2",
+      "tag": "v1.5.2",
+      "published_at": "2026-09-03T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.2",
+      "notes": [
+        "Adds an optional Fusion Connector Search tab for locally extracted Oracle Fusion connector logs, with no O Series connection or log-content cache required.",
+        "Discovers Fusion instance, flow, and server metadata from bundle, server, flow, or instance/user folder selections and narrows the eligible files before parsing.",
+        "Extracts and pairs OSR Request and OSR Response XML, with structured search, timestamp filtering, previews, exports, and filterable connector metadata.",
+        "Streamlines both search result grids with a compact shared column order, filename-only connector log display, and a simple error indicator in standard Search.",
+        "Keeps Ctrl+# shortcuts aligned with visible tab positions when the Fusion feature is enabled or disabled, and persists the opt-in setting between sessions."
+      ]
+    },
+    {
       "version": "1.5.1",
       "tag": "v1.5.1",
       "published_at": "2026-09-02T00:00:00Z",
