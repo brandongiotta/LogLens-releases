@@ -2,6 +2,17 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.5.3",
+      "tag": "v1.5.3",
+      "published_at": "2026-09-03T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.3",
+      "notes": [
+        "Detects O Series SUPPORT situs traces in returned XML application data and adjacent native log entries, exposes availability in the Search results grid, and supplies normalized condition/conclusion paths to Ask AI.",
+        "Makes Ask AI reconstruct the observed O Series decision and separately research plausible alternative paths, while preserving returned numeric values, rule IDs, and Output Notice names.",
+        "Expands the local AI usage report with SUPPORT-evidence indicators, path-size metrics, and with/without-SUPPORT token and duration comparisons."
+      ]
+    },
+    {
       "version": "1.5.2",
       "tag": "v1.5.2",
       "published_at": "2026-09-03T00:00:00Z",
