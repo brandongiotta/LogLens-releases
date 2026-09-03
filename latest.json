@@ -1,8 +1,8 @@
 {
-    "version":  "1.5.1",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.5.1/LogLens_for_O_Series_Setup_1_5_1.msi",
-    "notes":  "What\u0027s new in 1.5.1:\n- Builds transaction-specific AI research plans and heuristically links adjacent Purchase Order or Invoice Verification results with matching Accrual or Distribute Tax Procurement follow-on evidence.\n- Adds named AI credential profiles, profile-specific model selection, and Windows-native certificate trust for organizations that inspect HTTPS traffic.\n- Adds a local, personal Analyze AI Usage report with provider/model cost, token, duration, error, and matched-pair summaries plus CSV export.\n- Makes Settings safer to edit with Apply, dirty-state tracking, automatic capture of visible profile edits, and reliable deletion of the last profile.\n- Keeps Search Record numbers fixed to timestamp order when the grid is sorted, and fixes clipped or unclickable header-filter dropdown items.\n- Caps Claude dynamic web search to avoid runaway calls and corrects Claude Sonnet 5 estimates after a cancelled pricing change.\n- Hardens public-release publishing so large cumulative changelog.json payloads upload reliably.",
-    "published_at":  "2026-09-02",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.1",
+    "version":  "1.5.2",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.5.2/LogLens_for_O_Series_Setup_1_5_2.msi",
+    "notes":  "What\u0027s new in 1.5.2:\n- Adds an optional Fusion Connector Search tab for locally extracted Oracle Fusion connector logs, with no O Series connection or log-content cache required.\n- Discovers Fusion instance, flow, and server metadata from bundle, server, flow, or instance/user folder selections and narrows the eligible files before parsing.\n- Extracts and pairs OSR Request and OSR Response XML, with structured search, timestamp filtering, previews, exports, and filterable connector metadata.\n- Streamlines both search result grids with a compact shared column order, filename-only connector log display, and a simple error indicator in standard Search.\n- Keeps Ctrl+# shortcuts aligned with visible tab positions when the Fusion feature is enabled or disabled, and persists the opt-in setting between sessions.",
+    "published_at":  "2026-09-03",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.2",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
