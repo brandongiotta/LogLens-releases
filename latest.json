@@ -1,8 +1,8 @@
 {
-    "version":  "1.5.3",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.5.3/LogLens_for_O_Series_Setup_1_5_3.msi",
-    "notes":  "What\u0027s new in 1.5.3:\n- Detects O Series SUPPORT situs traces in returned XML application data and adjacent native log entries, exposes availability in the Search results grid, and supplies normalized condition/conclusion paths to Ask AI.\n- Makes Ask AI reconstruct the observed O Series decision and separately research plausible alternative paths, while preserving returned numeric values, rule IDs, and Output Notice names.\n- Expands the local AI usage report with SUPPORT-evidence indicators, path-size metrics, and with/without-SUPPORT token and duration comparisons.",
-    "published_at":  "2026-09-03",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.3",
+    "version":  "1.5.4",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.5.4/LogLens_for_O_Series_Setup_1_5_4.msi",
+    "notes":  "What\u0027s new in 1.5.4:\n- Adds a Manual Entry tab for pasting a request/response Vertex XML pair directly, with real-time normalization, a docked Normalized-transaction view, and the same AI research panel used elsewhere, for transactions that are not sitting in a log file.\n- Gives the Request/Response XML panes Format, word-wrap, and syntax-highlighting controls, and reports the specific reason a pair fails to normalize, including the source lines around a parse error, instead of a generic message.\n- Fixes Settings Apply/OK taking several seconds by only re-theming the app when the appearance mode actually changed.\n- Gives Search, Fusion Connector Search, and Manual Entry independent word-wrap toggles instead of one shared setting, and adds hover tooltips on tabs showing their current Ctrl+N shortcut.",
+    "published_at":  "2026-09-04",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.4",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
