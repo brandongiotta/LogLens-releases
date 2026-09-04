@@ -2,6 +2,18 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.5.4",
+      "tag": "v1.5.4",
+      "published_at": "2026-09-04T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.4",
+      "notes": [
+        "Adds a Manual Entry tab for pasting a request/response Vertex XML pair directly, with real-time normalization, a docked Normalized-transaction view, and the same AI research panel used elsewhere, for transactions that are not sitting in a log file.",
+        "Gives the Request/Response XML panes Format, word-wrap, and syntax-highlighting controls, and reports the specific reason a pair fails to normalize, including the source lines around a parse error, instead of a generic message.",
+        "Fixes Settings Apply/OK taking several seconds by only re-theming the app when the appearance mode actually changed.",
+        "Gives Search, Fusion Connector Search, and Manual Entry independent word-wrap toggles instead of one shared setting, and adds hover tooltips on tabs showing their current Ctrl+N shortcut."
+      ]
+    },
+    {
       "version": "1.5.3",
       "tag": "v1.5.3",
       "published_at": "2026-09-03T00:00:00Z",
