@@ -2,6 +2,17 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.5.5",
+      "tag": "v1.5.5",
+      "published_at": "2026-09-11T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.5",
+      "notes": [
+        "Makes Fusion Connector searches skip non-OSR files before parsing, cutting a representative 688-file search from 18.5 seconds to under one second.",
+        "Reuses fingerprinted Fusion search data within the app session, throttles cached-file progress updates, and adds accurate candidate, cache, byte, and stage timing details to default and diagnostics logs.",
+        "Shares the configured cache budget across O Series and Fusion prepared content, shows Fusion cache metrics only when the feature is enabled, and widens Settings so the compact cache summary fits on one line."
+      ]
+    },
+    {
       "version": "1.5.4",
       "tag": "v1.5.4",
       "published_at": "2026-09-04T00:00:00Z",
