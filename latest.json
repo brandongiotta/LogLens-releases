@@ -1,8 +1,8 @@
 {
-    "version":  "1.6.0",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.0/LogLens_for_O_Series_Setup_1_6_0.msi",
-    "notes":  "What\u0027s new in 1.6.0:\n- Opens local or directly linked Fusion support ZIPs, including encrypted archives, with asynchronous download, bundled native 7-Zip extraction, cancelable progress, compact source labels, and session reuse that prevents Refresh or reselection from downloading and extracting the same source again.\n- Adds Oracle Fusion Payload views for inbound requests and outbound responses, including a concise extracted response and the complete response payload.\n- Adds filterable VTA Rule Mappings with readable conditions and sources, rule applicability, functions, results, and transaction-line-specific values.\n- Detects Real-Time BIP calls and presents the report path, parameters, and returned CSV as a filterable RBIP Results table.\n- Polishes Fusion analysis with synchronized main/pop-out filters, copy and pop-out controls, responsive column fitting, preserved realtime usernames, and direct access to extracted logs.",
+    "version":  "1.6.1",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.1/LogLens_for_O_Series_Setup_1_6_1.msi",
+    "notes":  "What\u0027s new in 1.6.1:\n- Finds Fusion transactions that fail inside VTA before an O Series request is created by searching Oracle inbound TrxNumber and TrxId values as Document Number and Fusion Transaction Id.\n- Classifies inbound-only results as Supplies or Procurement from the Oracle application and labels them clearly as Oracle Inbound activity.\n- Extracts Oracle error codes and messages, adds a line-numbered Error Stack viewer, and hides O Series-only preview tabs when no O Series calculation occurred.",
     "published_at":  "2026-09-15",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.0",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.1",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
