@@ -2,6 +2,17 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.6.1",
+      "tag": "v1.6.1",
+      "published_at": "2026-09-15T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.1",
+      "notes": [
+        "Finds Fusion transactions that fail inside VTA before an O Series request is created by searching Oracle inbound TrxNumber and TrxId values as Document Number and Fusion Transaction Id.",
+        "Classifies inbound-only results as Supplies or Procurement from the Oracle application and labels them clearly as Oracle Inbound activity.",
+        "Extracts Oracle error codes and messages, adds a line-numbered Error Stack viewer, and hides O Series-only preview tabs when no O Series calculation occurred."
+      ]
+    },
+    {
       "version": "1.6.0",
       "tag": "v1.6.0",
       "published_at": "2026-09-15T00:00:00Z",
