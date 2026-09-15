@@ -1,8 +1,8 @@
 {
-    "version":  "1.5.5",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.5.5/LogLens_for_O_Series_Setup_1_5_5.msi",
-    "notes":  "What\u0027s new in 1.5.5:\n- Makes Fusion Connector searches skip non-OSR files before parsing, cutting a representative 688-file search from 18.5 seconds to under one second.\n- Reuses fingerprinted Fusion search data within the app session, throttles cached-file progress updates, and adds accurate candidate, cache, byte, and stage timing details to default and diagnostics logs.\n- Shares the configured cache budget across O Series and Fusion prepared content, shows Fusion cache metrics only when the feature is enabled, and widens Settings so the compact cache summary fits on one line.",
-    "published_at":  "2026-09-11",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.5.5",
+    "version":  "1.6.0",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.0/LogLens_for_O_Series_Setup_1_6_0.msi",
+    "notes":  "What\u0027s new in 1.6.0:\n- Opens local or directly linked Fusion support ZIPs, including encrypted archives, with asynchronous download, bundled native 7-Zip extraction, cancelable progress, compact source labels, and session reuse that prevents Refresh or reselection from downloading and extracting the same source again.\n- Adds Oracle Fusion Payload views for inbound requests and outbound responses, including a concise extracted response and the complete response payload.\n- Adds filterable VTA Rule Mappings with readable conditions and sources, rule applicability, functions, results, and transaction-line-specific values.\n- Detects Real-Time BIP calls and presents the report path, parameters, and returned CSV as a filterable RBIP Results table.\n- Polishes Fusion analysis with synchronized main/pop-out filters, copy and pop-out controls, responsive column fitting, preserved realtime usernames, and direct access to extracted logs.",
+    "published_at":  "2026-09-15",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.0",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
