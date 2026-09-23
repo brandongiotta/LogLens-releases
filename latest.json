@@ -1,8 +1,8 @@
 {
-    "version":  "1.6.1",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.1/LogLens_for_O_Series_Setup_1_6_1.msi",
-    "notes":  "What\u0027s new in 1.6.1:\n- Finds Fusion transactions that fail inside VTA before an O Series request is created by searching Oracle inbound TrxNumber and TrxId values as Document Number and Fusion Transaction Id.\n- Classifies inbound-only results as Supplies or Procurement from the Oracle application and labels them clearly as Oracle Inbound activity.\n- Extracts Oracle error codes and messages, adds a line-numbered Error Stack viewer, and hides O Series-only preview tabs when no O Series calculation occurred.",
-    "published_at":  "2026-09-15",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.1",
+    "version":  "1.6.2",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.2/LogLens_for_O_Series_Setup_1_6_2.msi",
+    "notes":  "What\u0027s new in 1.6.2:\n- Adds structured Search response tabs for extracted tax results, flexible fields, assisted parameters, and full XML, with compact layouts, synchronized filters and pop-outs, readable field names, tax-code and output-notice meanings, and Procurement recovery details.\n- Compares flexible-field request and response values side by side and resolves effective O Series long names using each line\u0027s tax date or the document date, while preserving authenticated session cookies and logging metadata requests in both regular and diagnostic logs.\n- Improves connection and log-refresh reliability by reusing the authenticated HTTP session and blocking on the bounded connection pool instead of exhausting Windows client sockets during busy searches or partition switches.\n- Reduces startup and Search preview latency, preserves calculated responses followed by transaction errors, and lets users collapse the results grid to devote more space to the selected transaction.",
+    "published_at":  "2026-09-23",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.2",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
