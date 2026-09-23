@@ -2,6 +2,18 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.6.2",
+      "tag": "v1.6.2",
+      "published_at": "2026-09-23T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.2",
+      "notes": [
+        "Adds structured Search response tabs for extracted tax results, flexible fields, assisted parameters, and full XML, with compact layouts, synchronized filters and pop-outs, readable field names, tax-code and output-notice meanings, and Procurement recovery details.",
+        "Compares flexible-field request and response values side by side and resolves effective O Series long names using each line's tax date or the document date, while preserving authenticated session cookies and logging metadata requests in both regular and diagnostic logs.",
+        "Improves connection and log-refresh reliability by reusing the authenticated HTTP session and blocking on the bounded connection pool instead of exhausting Windows client sockets during busy searches or partition switches.",
+        "Reduces startup and Search preview latency, preserves calculated responses followed by transaction errors, and lets users collapse the results grid to devote more space to the selected transaction."
+      ]
+    },
+    {
       "version": "1.6.1",
       "tag": "v1.6.1",
       "published_at": "2026-09-15T00:00:00Z",
