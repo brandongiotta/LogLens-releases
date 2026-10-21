@@ -2,6 +2,17 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.6.3",
+      "tag": "v1.6.3",
+      "published_at": "2026-10-21T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.3",
+      "notes": [
+        "Prevents a fatal Qt crash when a search is cleared or reset while its background worker is still stopping.",
+        "Supports the revised Fusion support-bundle connector-log layout while retaining compatibility with legacy bundles.",
+        "Deduplicates mirrored connector logs and prefers the sanitized copy so each tax request appears only once in search results."
+      ]
+    },
+    {
       "version": "1.6.2",
       "tag": "v1.6.2",
       "published_at": "2026-09-23T00:00:00Z",
