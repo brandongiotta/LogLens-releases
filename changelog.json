@@ -2,6 +2,18 @@
   "schema_version": 1,
   "releases": [
     {
+      "version": "1.6.4",
+      "tag": "v1.6.4",
+      "published_at": "2026-10-22T00:00:00Z",
+      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.4",
+      "notes": [
+        "Adds plus/minus XML tree controls throughout previews, pop-outs, and Manual Entry so parent elements can be collapsed to only their opening tag and expanded again.",
+        "Reworks Search and Fusion previews into stacked request and response XML on the left with extracted details kept visible on the right, and clarifies the OSR and Normalized for AI labels.",
+        "Makes the interface lighter and more compact with denser filters, menus, tables, source controls, contextual actions, and preview controls that remain hidden until a result is selected.",
+        "Prefills Ctrl+F with highlighted viewer text while retaining the previous find term when nothing is selected."
+      ]
+    },
+    {
       "version": "1.6.3",
       "tag": "v1.6.3",
       "published_at": "2026-10-21T00:00:00Z",
