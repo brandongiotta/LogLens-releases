@@ -2,15 +2,6 @@
   "schema_version": 1,
   "releases": [
     {
-      "version": "1.6.5",
-      "tag": "v1.6.5",
-      "published_at": "2026-10-27T00:00:00Z",
-      "html_url": "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.5",
-      "notes": [
-        "Fixes the Windows Task Manager process-group label so it displays LogLens for O Series instead of the app's long descriptive text."
-      ]
-    },
-    {
       "version": "1.6.4",
       "tag": "v1.6.4",
       "published_at": "2026-10-22T00:00:00Z",
