@@ -1,8 +1,8 @@
 {
-    "version":  "1.6.4",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.4/LogLens_for_O_Series_Setup_1_6_4.msi",
-    "notes":  "What\u0027s new in 1.6.4:\n- Adds plus/minus XML tree controls throughout previews, pop-outs, and Manual Entry so parent elements can be collapsed to only their opening tag and expanded again.\n- Reworks Search and Fusion previews into stacked request and response XML on the left with extracted details kept visible on the right, and clarifies the OSR and Normalized for AI labels.\n- Makes the interface lighter and more compact with denser filters, menus, tables, source controls, contextual actions, and preview controls that remain hidden until a result is selected.\n- Prefills Ctrl+F with highlighted viewer text while retaining the previous find term when nothing is selected.",
-    "published_at":  "2026-10-22",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.4",
+    "version":  "1.6.5",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.5/LogLens_for_O_Series_Setup_1_6_5.msi",
+    "notes":  "What\u0027s new in 1.6.5:\n- Fixes the Windows Task Manager process-group label so it displays LogLens for O Series instead of the app\u0027s long descriptive text.",
+    "published_at":  "2026-10-27",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.5",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
