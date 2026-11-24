@@ -1,8 +1,8 @@
 {
-    "version":  "1.6.6",
-    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.6/LogLens_for_O_Series_Setup_1_6_6.msi",
-    "notes":  "What\u0027s new in 1.6.6:\n- Fixes the Windows Task Manager process-group label so it displays LogLens for O Series instead of the app\u0027s long descriptive text.",
-    "published_at":  "2026-10-27",
-    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.6",
+    "version":  "1.6.7",
+    "installer_url":  "https://github.com/brandongiotta/LogLens-releases/releases/download/v1.6.7/LogLens_for_O_Series_Setup_1_6_7.msi",
+    "notes":  "What\u0027s new in 1.6.7:\n- Makes extracted response tables sortable while keeping line numbers in natural numeric order and using line number as the secondary key for other columns.\n- Orders flexible fields by Code 1–100, Date 1–10, and Numeric 1–50 instead of their display names, with matching behavior in embedded and pop-out tables.\n- Normalizes O Series responses whose ApplicationData logging fragment follows the main response as a second top-level XML element.\n- Stops Cache Refresh from following redirects into the O Series web UI, gives users a Vertex Product Support message, and records the redirect evidence in the always-on app log.",
+    "published_at":  "2026-11-23",
+    "html_url":  "https://github.com/brandongiotta/LogLens-releases/releases/tag/v1.6.7",
     "changelog_url":  "https://raw.githubusercontent.com/brandongiotta/LogLens-releases/main/changelog.json"
 }
